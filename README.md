@@ -1,2 +1,2 @@
-# Personal-Website
-Landing Page to federicovalles.com.ar
+# federicovalles.com.ar
+This repository holds my personal website. It is hosted on GitHub Pages
