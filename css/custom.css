@@ -1,44 +1,8 @@
 @charset "UTF-8";
-/*
-$limeade: #5BC500;
-$abbey: #50535A;
-$cerulean: #00A9E0;
-$mandy: #E9426D;
-$gray-nurse: #E9EAE8;
-
-$theme-colors: (
-  "custom-green": $limeade,
-  "custom-dark-gray": $abbey,
-  "custom-light-blue": $cerulean,
-  "custom-fuchsia": $mandy,
-  "custom-light-gray": $gray-nurse
-);
-*/
-/*
-$h1-font-size: $font-size-base * 2.5;
-$h2-font-size: $font-size-base * 2;
-$h3-font-size: $font-size-base * 1.75;
-$h4-font-size: $font-size-base * 1.5;
-$h5-font-size: $font-size-base * 1.25;
-$h6-font-size: $font-size-base;
-$h7-font-size: $font-size-base * 0.75;
-$h8-font-size: $font-size-base * 0.55;
-*/
-/*
-$grid-breakpoints: (
-  xs: 0,
-  xxs: 450px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1300px
-);
-*/
 body {
-  line-height: 1.6;
   background: linear-gradient(230deg, rgba(75, 207, 147, 0.7), rgba(75, 121, 207, 0.7)), url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
+  line-height: 1.6;
 }
 
 html {
@@ -46,9 +10,9 @@ html {
 }
 
 h1 {
-  letter-spacing: 5px;
-  font-size: 3rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
 }
 
 .fa-envelope {
@@ -84,17 +48,16 @@ h1 {
 }
 
 .main-container {
-  mix-blend-mode: overlay;
   height: 100vh;
+  mix-blend-mode: overlay;
   width: 100vw;
 }
 
 .profile-photo {
-  padding: 5px;
   border: 1px solid #fff;
   display: inline-block;
+  padding: 5px;
 }
-
 .profile-photo img {
   width: 120px;
 }
@@ -107,15 +70,12 @@ h1 {
   font-size: 1rem;
   letter-spacing: 2px;
 }
-
 .subtitle li {
   display: inline;
 }
-
 .subtitle li:after {
   content: " •";
 }
-
 .subtitle li:last-child:after {
   content: "";
 }
@@ -5304,7 +5264,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #9fcdff;
 }
 .list-group-item-primary.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #004085;
   border-color: #004085;
 }
@@ -5318,7 +5278,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #c8cbcf;
 }
 .list-group-item-secondary.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #383d41;
   border-color: #383d41;
 }
@@ -5332,7 +5292,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #b1dfbb;
 }
 .list-group-item-success.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #155724;
   border-color: #155724;
 }
@@ -5346,7 +5306,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #abdde5;
 }
 .list-group-item-info.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #0c5460;
   border-color: #0c5460;
 }
@@ -5360,7 +5320,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #ffe8a1;
 }
 .list-group-item-warning.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #856404;
   border-color: #856404;
 }
@@ -5374,7 +5334,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f1b0b7;
 }
 .list-group-item-danger.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #721c24;
   border-color: #721c24;
 }
@@ -5388,7 +5348,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #ececf6;
 }
 .list-group-item-light.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #818182;
   border-color: #818182;
 }
@@ -5402,7 +5362,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #b9bbbe;
 }
 .list-group-item-dark.list-group-item-action.active {
-  color: #fff;
+  color: white;
   background-color: #1b1e21;
   border-color: #1b1e21;
 }
@@ -6245,7 +6205,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: white !important;
 }
 
 .bg-transparent {
@@ -6325,7 +6285,7 @@ button.bg-dark:focus {
 }
 
 .border-white {
-  border-color: #fff !important;
+  border-color: white !important;
 }
 
 .rounded-sm {
@@ -9856,7 +9816,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: white !important;
 }
 
 .text-primary {
@@ -10031,7 +9991,7 @@ h3 {
   }
 
   .badge {
-    border: 1px solid #000;
+    border: 1px solid black;
   }
 
   .table {
@@ -10039,7 +9999,7 @@ h3 {
   }
   .table td,
 .table th {
-    background-color: #fff !important;
+    background-color: white !important;
   }
 
   .table-bordered th,

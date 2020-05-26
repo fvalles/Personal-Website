@@ -2,59 +2,24 @@
 @import "../bootstrap-4.4.1/scss/functions"; 
 @import "../bootstrap-4.4.1/scss/variables";
 
-/*
-$limeade: #5BC500;
-$abbey: #50535A;
-$cerulean: #00A9E0;
-$mandy: #E9426D;
-$gray-nurse: #E9EAE8;
-
-$theme-colors: (
-  "custom-green": $limeade,
-  "custom-dark-gray": $abbey,
-  "custom-light-blue": $cerulean,
-  "custom-fuchsia": $mandy,
-  "custom-light-gray": $gray-nurse
-);
-*/
-
-//$font-size-base: 1rem;
-//$small-font-size: 0.89 * $font-size-base;
-
-/*
-$h1-font-size: $font-size-base * 2.5;
-$h2-font-size: $font-size-base * 2;
-$h3-font-size: $font-size-base * 1.75;
-$h4-font-size: $font-size-base * 1.5;
-$h5-font-size: $font-size-base * 1.25;
-$h6-font-size: $font-size-base;
-$h7-font-size: $font-size-base * 0.75;
-$h8-font-size: $font-size-base * 0.55;
-*/
-
-/*
-$grid-breakpoints: (
-  xs: 0,
-  xxs: 450px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1300px
-);
-*/
-
+// Font Properties
 $default-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size-base: 1rem;
 $h1-font-size: $font-size-base * 3;
 
+// Colors
+$black: black;
+$deep-sapphire: #0E397C;
+$milano-red: #B50808;
+$negroni: #FFE4C2;
+$white: white;
+
 body {
-  line-height: 1.6;
   background:
       linear-gradient(230deg, rgba(75, 207, 147, 0.7), rgba(75, 121, 207, 0.7)),
       url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
-  
+  line-height: 1.6;
 }
 
 html {
@@ -63,57 +28,57 @@ html {
 }
 
 h1 {
-  letter-spacing: 5px;
-  font-size: $h1-font-size;
   font-family: $default-font-family;
+  font-size: $h1-font-size;
+  letter-spacing: 5px;
 }
 
 .fa-envelope {
-  color: white;
+  color: $white;
 }
 
 .fa-envelope:hover {
-  color: #FFE4C2;
+  color: $negroni;
 }
 
 .fa-linkedin-in {
-  color: white;
+  color: $white;
 }
 
 .fa-linkedin-in:hover {
-  color: #0E397C;
+  color: $deep-sapphire;
 }
 
 .fa-github-alt {
-  color: white;
+  color: $white;
 }
 
 .fa-github-alt:hover {
-  color: black;
+  color: $black;
 }
 
 .fa-youtube {
-  color: white;
+  color: $white;
 }
 
 .fa-youtube:hover {
-  color: #B50808;
+  color: $milano-red;
 }
 
 .main-container {
-  mix-blend-mode: overlay;
   height: 100vh;
+  mix-blend-mode: overlay;
   width: 100vw;
 }
 
 .profile-photo {
-  padding: 5px;
   border: 1px solid #fff;
   display: inline-block;
-}
+  padding: 5px;
 
-.profile-photo img {
-  width: 120px;
+  img {
+    width: 120px;
+  }
 }
 
 .social-media {
@@ -123,18 +88,18 @@ h1 {
 .subtitle {
   font-size: $font-size-base;
   letter-spacing: 2px;
-}
 
-.subtitle li {
-  display:inline;
-}
+  li {
+    display:inline;
+  }
 
-.subtitle li:after {
-  content: " •";
-}
+  li:after {
+    content: " •";
+  }
 
-.subtitle li:last-child:after {
-  content: "";
+  li:last-child:after {
+    content: "";
+  }
 }
 
 // Overrides must come before you import Bootstrap’s Sass files.
