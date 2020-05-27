@@ -5,10 +5,12 @@ body {
   line-height: 1.6;
 }
 
+/*
 html {
+  // CSS needed to apply mix-blend-mode to the profile img in Chrome (Safari was working OK without it)
   background: #fff;
 }
-
+*/
 h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 3rem;
@@ -49,7 +51,6 @@ h1 {
 
 .main-container {
   height: 100vh;
-  mix-blend-mode: overlay;
   width: 100vw;
 }
 
