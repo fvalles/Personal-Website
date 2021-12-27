@@ -22,7 +22,7 @@ h1 {
 }
 
 .fa-envelope:hover {
-  color: #FFE4C2;
+  color: #ffe4c2;
 }
 
 .fa-linkedin-in {
@@ -30,7 +30,7 @@ h1 {
 }
 
 .fa-linkedin-in:hover {
-  color: #0E397C;
+  color: #0e397c;
 }
 
 .fa-github-alt {
@@ -41,12 +41,12 @@ h1 {
   color: black;
 }
 
-.fa-youtube {
+.fa-medium-m {
   color: white;
 }
 
-.fa-youtube:hover {
-  color: #B50808;
+.fa-medium-m:hover {
+  color: black;
 }
 
 .main-container {
